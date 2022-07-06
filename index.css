@@ -15,6 +15,8 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+/*Navbar*/
+
 .banner {
     background-color: #ff583d;
     text-align: center;
@@ -162,3 +164,52 @@ nav ul ul {
         margin: 0;
     }
 }
+
+/*  Footer */
+
+footer {
+    background-color: #f9ece6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  footer nav ul {
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  footer nav ul li {
+    display: inline-block;
+  }
+  
+  .footer-primary-nav a {
+    color: #767676;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+  }
+  
+  .footer-primary-nav a:hover {
+    color: #ff853d;
+  }
+  
+  .footer-social-media-nav a {
+    color: #ff583d;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .footer-social-media-nav a:hover {
+    color: #fff;
+    background-color: #ff583d;
+  }
+  
+  .footer-copyright {
+    color: #767676;
+    padding-bottom: 0.5rem;
+  }
